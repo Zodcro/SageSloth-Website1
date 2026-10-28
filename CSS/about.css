@@ -1,0 +1,249 @@
+body{
+    background-color: black;
+    color: white;
+    margin:0px;
+    font-family: "inter";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.headerButtons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#playerLoginHeader{
+    background-color: #192B24;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 12px;
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+#currentHeader{
+    color: #70D6B2;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 150px;
+}
+.heroMains{
+    width: 40%;
+}
+.heroMains h1{
+    font-size: 48px;
+}
+.heroMains div{
+    background-color: #A8D672;
+    padding: 1px;
+    padding-left: 16px;
+    border-radius: 32px;
+    width: 46%;
+    font-family: "roboto mono";
+    color: black;
+}
+.hero div img{
+    height: 100%;
+    border-radius: 30px;
+}
+#partyQuestText{
+    color: #70D6B2;
+    font-family: "Roboto mono";
+    font-size: 16px;
+}
+.resetModes{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background-color: #192B24;
+}
+#resetModesTop h6{
+    color: #69877c;
+    font-family: "Roboto mono";
+    font-size: smaller;
+}
+#resetButtons{
+    display: flex;
+    gap:10px;
+    margin:40px;
+    margin-left:0px;
+}
+.resetButtonBase{
+    border-radius: 32px;
+    background-color: #192B24;
+    border: #70D6B2 1px solid;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#resetButtonSelected{
+    background-color: #70D6B2;
+    border: 0px;
+}
+.resetModesOptions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#resetModesTop{
+    align-self: left;
+}
+.rMOption{
+    width: 29%;
+    border-radius: 20px;
+    border: #69877c 1px solid;
+    text-align: left;
+    padding: 20px;
+}
+.rMOption h5{
+    font-family:"roboto mono"
+}
+.rMOption h6{
+    padding: 8px;
+    background-color:#111A16;
+    border-radius: 64px;
+    display:inline;
+}
+
+.rMOptionImageTime{
+    display: flex;
+    justify-content: space-between;
+}
+#RMOITA2{
+    background-color: plum;
+    color:black;
+    font-family: "roboto mono";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+#RMOITA1{
+    background-color: #70D6B2;
+    color:black;
+    font-family: "roboto mono";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+#RMOITA3{
+    background-color: #ffb893;
+    color:black;
+    font-family: "roboto mono";
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.party{
+    padding: 80px;
+}
+.partyOptions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.partyOptions div h3{
+    font-family: "Roboto mono";
+    font-size: 14px;
+}
+.partyOptions div img{
+    width: 100%;
+    border-radius: 16px;
+}
+.parOption1{
+    width: 29%;
+    background-color: #70D6B2;
+    color: black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.parOption2{
+    width: 29%;
+    background-color: plum;
+    color: black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.parOption3{
+    width: 29%;
+    background-color: #ffb893;
+    color: black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.notes{
+    padding: 80px;
+}
+#notesTop{
+    display: flex;
+    justify-content: space-between;
+}
+.notesOptions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.notesOptions div h3{
+    font-family: "Roboto mono";
+    font-size: 14px;
+}
+.noteOption1{
+    width: 29%;
+    background-color: #70D6B2;
+    color: black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.noteOption2{
+    width: 29%;
+    background-color: plum;
+    color: black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+}
+.noteOption3{
+    width: 29%;
+    background-color: #E8DD63;
+    color: black;
+    border-radius: 20px;
+    text-align: left;
+    padding: 20px;
+}
+footer{
+    background-color: #192B24;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+#footerIcons{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+footer img{
+    height: 100%;
+}

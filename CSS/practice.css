@@ -1,0 +1,223 @@
+body{
+    background-color: black;
+    color: white;
+    margin:0px;
+    font-family: "inter";
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.headerButtons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#playerLoginHeader{
+    background-color: #192B24;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 12px;
+}
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+#currentHeader{
+    color: #70D6B2;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 150px;
+}
+.heroMains{
+    width: 40%;
+}
+.hero div img{
+    height: 100%;
+    border-radius: 30px;
+}
+#heroQuestText{
+    color: #70D6B2;
+    font-family: "Roboto mono";
+}
+.resetModes{
+    padding: 5%;
+}
+#resetModesTop h6{
+    color: #69877c;
+    font-family: "Roboto mono";
+    font-size: smaller;
+}
+#resetButtons{
+    display: flex;
+    gap:10px;
+    margin:40px;
+    margin-left:0px;
+}
+.resetButtonBase{
+    border-radius: 32px;
+    background-color: #192B24;
+    border: #70D6B2 1px solid;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#resetButtonSelected{
+    background-color: #70D6B2;
+    border: 0px;
+}
+.resetModesOptions{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#resetModesTop{
+    align-self: left;
+}
+.rMOption{
+    width: 29%;
+    background-color: #192B24;
+    border-radius: 20px;
+    border: #70D6B2 1px solid;
+    text-align: left;
+    padding: 20px;
+}
+.rMOption h5{
+    font-family:"roboto mono"
+}
+.rMOption h6{
+    padding: 8px;
+    background-color:#111A16;
+    border-radius: 64px;
+    display:inline;
+}
+
+.rMOptionImageTime{
+    display: flex;
+    justify-content: space-between;
+}
+#RMOITA1{
+    background-color: plum;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.resetModesA1Start{
+    color: plum;
+}
+#RMOITA2{
+    background-color: #70D6B2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.resetModesA2Start{
+    color: #70D6B2;
+}
+#RMOITA3{
+    background-color: #ffb893;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.resetModesA3Start{
+    color: #ffb893;
+}
+#RMOITB1{
+    background-color: #70D6B2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.resetModesB1Start{
+    color: #70D6B2;
+}
+#RMOITB2{
+    background-color: #E8DD63;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.resetModesB2Start{
+    color: #E8DD63;
+}
+#RMOITB3{
+    background-color: #F0E8D2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 64px;
+    height:64px;
+    border-radius: 16px;
+}
+.resetModesB3Start{
+    color: #F0E8D2;
+}
+#inviteMain{
+    margin: 10%;
+    margin-top: 0px;
+    background-color: #192B24;
+    display: flex;
+    gap: 20px;
+    padding: 5%;
+    border-radius: 32px;
+}
+#inviteMain h1{
+    font-size: 32px;
+}
+#invitePercent{
+    background-color: plum;
+    color: black;
+    font-size: 92px;
+    display: flex;
+    border-radius: 32px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono";
+    width:15%;
+    height:196px;
+}
+#inviteButton{
+    width: 40%;
+    color: black;
+    border-radius: 8px;
+    background-color: #70D6B2;
+    padding: 8px;
+    text-align: center;
+}
+footer{
+    background-color: #192B24;
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+#footerIcons{
+    display: flex;
+    justify-content: space-around;
+    gap:20px;
+}
+footer img{
+    height: 100%;
+}

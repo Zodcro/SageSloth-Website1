@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS\practice.css">
+    <title>Practice - SageSloth</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div><h1>SageSloth</h1></div>
+        <div class="headerButtons">
+            <div class="headerButton"><a href="home.html">Home</a></div>
+            <div class="headerButton" id="currentHeader">Practice</div>
+            <div class="headerButton"><a href="about.html">About</a></div>
+            <div class="headerButton"><a href="contact.html">Contact</a></div>
+            <div class="headerButton" id="playerLoginHeader">Player login</div>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="heroMains">
+            <p id="heroQuestText">MINDFULNESS QUEST LOG</p>
+            <h1>Small resets. Better games.</h1>
+            <p>Six beginner-friendly practices for queues, tough rounds, and the moment you finally log off.</p>
+        </div>
+        <div class="heroMains"><img src="Images\practice-sloth.png" alt="AI sloth"></div>
+    </div>
+    <div class="resetModes">
+        <div id="resetModesTop">
+            <h1>Choose your next reset</h1>
+            <p>No streaks to protect. No perfect score required.</p>
+            <h6>06 quests available</h6>
+        </div>
+        <div id="resetButtons">
+            <div class="resetButtonBase" id="resetButtonSelected">All quests</div>
+            <div class="resetButtonBase">Under 5 min</div>
+            <div class="resetButtonBase">Before play</div>
+            <div class="resetButtonBase">After play</div>
+            <div class="resetButtonBase">Ranked reset</div>
+        </div>
+        <div class="resetModesOptions">
+            <div class="rMOption">
+                <div class="rMOptionImageTime">
+                    <div id="RMOITA1">
+                        <img src="Images\hourglass-icon.png">
+                    </div>
+                    <h5>04 min</h5>
+                </div>
+                <h2>Loading Screen Scan</h2>
+                <h6 class="resetModesA1Start">Beginner</h6>
+                <h4>Use queue time to release tension from head to hands.</h4>
+                <h5 class="resetModesA1Start">START QUEST &#10142;</h5>
+            </div>
+            <div class="rMOption">
+                <div class="rMOptionImageTime">
+                    <div id="RMOITA2">
+                        <img src="Images\hourglass-icon.png">
+                    </div>
+                    <h5>03 min</h5>
+                </div>
+                <h2>Spawn Point Breathing</h2>
+                <h6 class="resetModesA2Start">Beginner</h6>
+                <h4>Arrive in the room before you enter the match.</h4>
+                <h5 class="resetModesA2Start">START QUEST &#10142;</h5>
+            </div>
+            <div class="rMOption">
+                <div class="rMOptionImageTime">
+                    <div id="RMOITA3">
+                        <img src="Images\hourglass-icon.png">
+                    </div>
+                    <h5>05 min</h5>
+                </div>
+                <h2>Tilt Reset</h2>
+                <h6 class="resetModesA3Start">Beginner</h6>
+                <h4>Unclench, name the feelingm and choose your next move.</h4>
+                <h5 class="resetModesA3Start">START QUEST &#10142;</h5>
+            </div>
+            <div class="rMOption">
+                <div class="rMOptionImageTime">
+                    <div id="RMOITB1">
+                        <img src="Images\hourglass-icon.png">
+                    </div>
+                    <h5>12 min</h5>
+                </div>
+                <h2>One-Match Focus</h2>
+                <h6 class="resetModesB1Start">Medior</h6>
+                <h4>Practice single-task attention through one complete round.</h4>
+                <h5 class="resetModesB1Start">START QUEST &#10142;</h5>
+            </div>
+            <div class="rMOption">
+                <div class="rMOptionImageTime">
+                    <div id="RMOITB2">
+                        <img src="Images\hourglass-icon.png">
+                    </div>
+                    <h5>07 min</h5>
+                </div>
+                <h2>GG Cooldown</h2>
+                <h6 class="resetModesB2Start">Beginner</h6>
+                <h4>Close the session without carrying the lobby into your night.</h4>
+                <h5 class="resetModesB2Start">START QUEST &#10142;</h5>
+            </div>
+            <div class="rMOption">
+                <div class="rMOptionImageTime">
+                    <div id="RMOITB3">
+                        <img src="Images\hourglass-icon.png">
+                    </div>
+                    <h5>08 min</h5>
+                </div>
+                <h2>Boss Fight Grounding</h2>
+                <h6 class="resetModesB3Start">Advanced</h6>
+                <h4>A five-senses reset for high stakes moments and ranked nerves.</h4>
+                <h5 class="resetModesB3Start">START QUEST &#10142;</h5>
+            </div>
+        </div>
+    </div>
+    <div id="inviteMain">
+        <div id="invitePercent">0%</div>
+        <div>
+            <h1>Your pace is the right pace.</h1>
+            <p>Start with one three-minute quest. We'll save your place, not judge your speed.</p>
+            <div id="inviteButton">Start Spawn Point Breathing</div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h2>SageSloth</h2>
+            <h5>Mindful resets for people who play.</h5>
+        </div>
+        <div>
+            <div id="footerIcons">
+                <img src="Images\discord-icon.png" alt="practice">
+                <img src="Images\youtube-icon.png" alt="about">
+                <img src="Images\twitch-icon.png" alt="contact">
+            </div>
+        </div>
+        <div>
+            <h6> &#169;2026 SAGESLOTH.GG</h6>
+        </div>
+    </footer>
+</body>
+</html>
